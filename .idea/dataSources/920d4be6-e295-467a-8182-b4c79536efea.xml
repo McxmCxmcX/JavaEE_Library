@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="db_1234">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="db_1702"/>
+    <schema id="4" parent="1" name="db_circleoffriends"/>
+    <schema id="5" parent="1" name="db_friend"/>
+    <schema id="6" parent="1" name="db_friends"/>
+    <schema id="7" parent="1" name="db_ip"/>
+    <schema id="8" parent="1" name="db_javaee"/>
+    <schema id="9" parent="1" name="db_jianshu"/>
+    <schema id="10" parent="1" name="db_stu"/>
+    <schema id="11" parent="1" name="db_system"/>
+    <schema id="12" parent="1" name="db_test"/>
+    <schema id="13" parent="1" name="db_work"/>
+    <schema id="14" parent="1" name="hs_1702"/>
+    <schema id="15" parent="1" name="information_schema"/>
+    <schema id="16" parent="1" name="mysql"/>
+    <schema id="17" parent="1" name="performance_schema"/>
+    <schema id="18" parent="1" name="scott"/>
+    <schema id="19" parent="1" name="test"/>
+    <schema id="20" parent="1" name="javaee_library"/>
+    <table id="21" parent="2" name="ip"/>
+    <column id="22" parent="21" name="id">
+      <Position>1</Position>
+      <Comment>ID PK</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="21" name="ip">
+      <Position>2</Position>
+      <Comment>地址</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="24" parent="21" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
